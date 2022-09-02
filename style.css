@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header {    /*Começo do header*/
+    display: flex;
+    background-color: rgba(9, 93, 248, 0.74);
+    height: 80px;
+    justify-content: center;
+    background-image: url("imagens/background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+header > section {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 173, 0.356);
+    height: 80px;
+    width: 100%;
+}
+
+header > img {
+    padding: 15px 80px 0px 0px;
+    height: 120px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    color: white;
+    padding-top: 20px;
+}
+
+header li {
+    padding: 0.5rem;
+    font-variant: small-caps;
+}
+  
+/*Fim do header*/
+
+
+/*Começo do main*/
+
+article section {
+    background-color:#EB4D0C;
+    height: 40vh;
+}
+
+main div.linha {
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    width: 100%;
+}
+
+section.noticias {        /*Aba de Noticias*/
+    display: flex;
+    justify-content: space-around;
+}
+
+section.noticias h1 {
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    height: 0px;
+}
+
+section.imagens {        /*Imagens da Aba de Noticias - Externos*/
+    display: flex;
+    justify-content: center;
+}
+
+section.imagens > img {        /*Imagens da Aba de Noticias - Internos*/
+    height: 220px;
+    background-color: black;
+    margin: 1rem;
+    border-radius: 5%;
+    border: 5px solid black;
+}
+
+article div {
+    background-color: #EB4D0C;
+}
+
+div a {   /* Botão "Ver Todas ás Noticias 1/2 */
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    width: 195px;                       
+    margin: auto;
+    padding: 1rem;
+    background-color: #EB4D0C;
+    color: white;
+    border-radius: 5%;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+div a:hover {    /* Botão "Ver Todas ás Noticias 2/2 */
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+}
+
+section.welcome {    /* Começo da Página do "Bem Vindo Ao Naruto Game" */
+    background-image: url("imagens/background3.png");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+section.welcome > p {
+    width: 300px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 1rem;
+    border-top-right-radius: 0rem;
+    border-top-left-radius: 0rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+section.welcome > h2 {
+    width: 300px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+main section.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section .bottomregister {    /* Final da Página do "Bem Vindo Ao Naruto Game"  */
+    color: white;
+    background-color: orangered;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 3%;
+    border: 5px solid black;
+}
+
+section .bottomregister:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+footer {
+    height: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.7rem;
+}
